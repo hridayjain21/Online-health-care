@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "31603937189",
+    "firebase_url": "https://aanandam-e5f3d.firebaseio.com",
+    "project_id": "aanandam-e5f3d",
+    "storage_bucket": "aanandam-e5f3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31603937189:android:3bec83345442fdf8e8e24c",
+        "android_client_info": {
+          "package_name": "com.example.aanandam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31603937189-ikhogf7pt4sb6v92q6g2kdri12ea00ub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aanandam",
+            "certificate_hash": "a3b29f2216f94f84928ad0cc27f0283f75ac9992"
+          }
+        },
+        {
+          "client_id": "31603937189-kil8qum3ltjjoubuj4fccrk8h6sa7731.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy7Ioidy283F5o3v19DK_CzDoMi0O6l8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31603937189-kil8qum3ltjjoubuj4fccrk8h6sa7731.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Myapp</string>
+    <string name="question1"> Dr. radhe krishnan is the first president of india. </string>
+    <string name="question2">There are 26 spokes in indian national flag. </string>
+    <string name="question3">Rabindra nath tagore wrote the national anthem of bangladesh. </string>
+    <string name="question4">Australia is a continent.</string>
+    <string name="for_correct">Thats correct </string>
+    <string name="for_wrong">Thats wrong </string>
+    <string name="showtrue">A</string>
+    <string name="showfalse">B</string>
+    <string name="showc">C</string>
+    <string name="showd">D</string>
+
+
+</resources>
