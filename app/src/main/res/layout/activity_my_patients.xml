@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".my_doctors"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_in_my_patients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22BE87"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="#fff"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp">
+        <TextView
+            android:id="@+id/toolbar_title_mypatients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My patients"
+            android:textColor="@android:color/white"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_gravity="center"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/my_patients_recycler_view"/>
+    <TextView
+        android:id="@+id/my_patients_appointement_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="No patients Currently"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+</LinearLayout>

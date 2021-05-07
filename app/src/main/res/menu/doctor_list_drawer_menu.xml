@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/find_specialist"
+            android:icon="@drawable/ic_find_in_page_black_24dp"
+            android:title="Find specialist" />
+        <item
+            android:id="@+id/my_profile_for_patient"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My profile" />
+        <item
+            android:id="@+id/edit_profile_patient_in_nav"
+            android:icon="@drawable/ic_edit_patient_24dp"
+            android:title="Edit profile"/>
+        <item
+            android:id="@+id/my_docs_patient_in_nav"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="My Doctors"/>
+        <item
+            android:id="@+id/view_appointement_paient"
+            android:icon="@drawable/ic_appointementicon_24dp"
+            android:title="View Appointments" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/ic_aboutus_black_24dp"
+            android:title="About Us" />
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_logout_24dp"/>
+    </group>
+</menu>

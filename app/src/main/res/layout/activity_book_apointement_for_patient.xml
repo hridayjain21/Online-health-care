@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".my_calendar_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="75dp"
+        android:background="#00BFA5"
+        android:id="@+id/my_calendar_textview_patient"
+        android:fontFamily="@font/amita"
+        android:gravity="center"
+        android:text="Select Date and time"
+        android:textSize="20sp" />
+    <devs.mulham.horizontalcalendar.HorizontalCalendarView
+        android:id="@+id/my_calendar_in_patient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:textColorSelected="#FFFF"
+        app:selectedDateBackground="@android:color/holo_orange_dark"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycle_time_slot_patient"
+        android:layout_marginTop="4dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
